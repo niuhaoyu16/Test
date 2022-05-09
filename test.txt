@@ -1,0 +1,495 @@
+-- Logs begin at Thu 2022-05-05 11:45:31 EDT. --
+May 05 11:46:58 cpr-a200-0764 ros-start[1648]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-ModemManager.service-VRtjlf': Permission denied
+May 05 11:46:58 cpr-a200-0764 ros-start[1648]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-systemd-resolved.service-LKU8mj': Permission denied
+May 05 11:46:58 cpr-a200-0764 ros-start[1648]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-chrony.service-Qt4hlg': Permission denied
+May 05 11:46:58 cpr-a200-0764 ros-start[1648]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-systemd-logind.service-Xguazh': Permission denied
+May 05 11:46:59 cpr-a200-0764 ros-start[1716]: [ERROR] [1651765619.556614169]: Couldn't open joystick /dev/input/ps4. Will retry every second.
+May 05 11:49:42 cpr-a200-0764 ros-start[1693]: [WARN] [1651765781.963195]: Controller Spawner error while taking down controllers: unable to contact master
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: WARNING: Could not change permissions for folder [/tmp/98f83c06-cc8a-11ec-b172-695ec264b601], make sure that the parent folder has correct permissions.
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: Checking log directory for disk usage. This may take a while.
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: Press Ctrl-C to interrupt
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: Done checking log file disk usage. Usage is <1GB.
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: 
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: started roslaunch server http://cpr-a200-0764:43237/
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: SUMMARY
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: ========
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: PARAMETERS
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /diagnostic_aggregator/analyzers/husky/expected: ['husky_base: pow...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /diagnostic_aggregator/analyzers/husky/find_and_remove_prefix: husky_base:
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /diagnostic_aggregator/analyzers/husky/path: Husky A200
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /diagnostic_aggregator/analyzers/husky/timeout: 5.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /diagnostic_aggregator/analyzers/husky/type: diagnostic_aggreg...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/base_link_frame: base_link
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/frequency: 50
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/imu0: imu/data
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/imu0_config: [False, False, Fa...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/imu0_differential: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/imu0_queue_size: 10
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/imu0_remove_gravitational_acceleration: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/odom0: husky_velocity_co...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/odom0_config: [False, False, Fa...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/odom0_differential: False
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/odom0_queue_size: 10
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/odom_frame: odom
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/predict_to_current_time: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/two_d_mode: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /ekf_localization/world_frame: odom
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_joint_publisher/publish_rate: 50
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_joint_publisher/type: joint_state_contr...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_node/control_frequency: 10.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_node/diagnostic_frequency: 1.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_node/max_acceleration: 3.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_node/max_speed: 1.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_node/polling_timeout: 10.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_node/port: /dev/prolific
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_node/wheel_diameter: 0.3302
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/angular/z/has_acceleration_limits: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/angular/z/has_velocity_limits: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/angular/z/max_acceleration: 6.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/angular/z/max_velocity: 2.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/base_frame_id: base_link
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/cmd_vel_timeout: 0.25
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/enable_odom_tf: False
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/estimate_velocity_from_position: False
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/left_wheel: ['front_left_whee...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/linear/x/has_acceleration_limits: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/linear/x/has_velocity_limits: True
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/linear/x/max_acceleration: 3.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/linear/x/max_velocity: 1.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/pose_covariance_diagonal: [0.001, 0.001, 0....
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/publish_rate: 50
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/right_wheel: ['front_right_whe...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/twist_covariance_diagonal: [0.001, 0.001, 0....
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/type: diff_drive_contro...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/velocity_rolling_window_size: 2
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/wheel_radius_multiplier: 1.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /husky_velocity_controller/wheel_separation_multiplier: 1.875
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/joy_node/autorepeat_rate: 20
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/joy_node/deadzone: 0.1
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/joy_node/dev: /dev/input/ps4
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/teleop_twist_joy/axis_angular: 0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/teleop_twist_joy/axis_linear: 1
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/teleop_twist_joy/enable_button: 4
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/teleop_twist_joy/enable_turbo_button: 5
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/teleop_twist_joy/scale_angular: 1.4
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/teleop_twist_joy/scale_linear: 0.4
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /joy_teleop/teleop_twist_joy/scale_linear_turbo: 2.0
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /robot_description: <?xml version="1....
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /rosdistro: noetic
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /rosversion: 1.15.14
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /twist_marker_server/link_name: base_link
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /twist_mux/locks: [{'name': 'e_stop...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:  * /twist_mux/topics: [{'name': 'joy', ...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: NODES
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:   /
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     base_controller_spawner (controller_manager/spawner)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     diagnostic_aggregator (diagnostic_aggregator/aggregator_node)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     ekf_localization (robot_localization/ekf_localization_node)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     husky_node (husky_base/husky_node)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     robot_state_publisher (robot_state_publisher/robot_state_publisher)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     twist_marker_server (interactive_marker_twist_server/marker_server)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     twist_mux (twist_mux/twist_mux)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:   /joy_teleop/
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     joy_node (joy/joy_node)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]:     teleop_twist_joy (teleop_twist_joy/teleop_node)
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: auto-starting new master
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[master]: started with pid [1666]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: ROS_MASTER_URI=http://127.0.0.1:11311
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: 
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: setting /run_id to 98f83c06-cc8a-11ec-b172-695ec264b601
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[rosout-1]: started with pid [1676]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: started core service [/rosout]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[husky_node-2]: started with pid [1689]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[base_controller_spawner-3]: started with pid [1693]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[ekf_localization-4]: started with pid [1694]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[twist_marker_server-5]: started with pid [1695]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[robot_state_publisher-6]: started with pid [1696]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[twist_mux-7]: started with pid [1697]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[joy_teleop/joy_node-8]: started with pid [1716]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[joy_teleop/teleop_twist_joy-9]: started with pid [1723]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: process[diagnostic_aggregator-10]: started with pid [1730]
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [diagnostic_aggregator-10] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [joy_teleop/teleop_twist_joy-9] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [joy_teleop/joy_node-8] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [twist_mux-7] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [robot_state_publisher-6] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [twist_marker_server-5] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [ekf_localization-4] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [base_controller_spawner-3] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [husky_node-2] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [rosout-1] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: [master] killing on exit
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: shutting down processing monitor...
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: ... shutting down processing monitor complete
+May 05 11:49:42 cpr-a200-0764 ros-start[1643]: done
+May 05 11:49:43 cpr-a200-0764 ros-start[1893]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-ModemManager.service-VRtjlf': Permission denied
+May 05 11:49:43 cpr-a200-0764 ros-start[1893]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-systemd-resolved.service-LKU8mj': Permission denied
+May 05 11:49:43 cpr-a200-0764 ros-start[1893]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-chrony.service-Qt4hlg': Permission denied
+May 05 11:49:43 cpr-a200-0764 ros-start[1893]: /usr/bin/du: cannot read directory '/tmp/systemd-private-a84753d84d1846cfb319418b754ab7a7-systemd-logind.service-Xguazh': Permission denied
+May 05 11:56:53 cpr-a200-0764 ros-start[1938]: [WARN] [1651766213.151024]: Controller Spawner error while taking down controllers: unable to contact master
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: WARNING: Could not change permissions for folder [/tmp/fb297980-cc8a-11ec-b172-695ec264b601], make sure that the parent folder has correct permissions.
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: Checking log directory for disk usage. This may take a while.
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: Press Ctrl-C to interrupt
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: Done checking log file disk usage. Usage is <1GB.
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: 
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: started roslaunch server http://cpr-a200-0764:40783/
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: SUMMARY
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: ========
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: PARAMETERS
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /diagnostic_aggregator/analyzers/husky/expected: ['husky_base: pow...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /diagnostic_aggregator/analyzers/husky/find_and_remove_prefix: husky_base:
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /diagnostic_aggregator/analyzers/husky/path: Husky A200
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /diagnostic_aggregator/analyzers/husky/timeout: 5.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /diagnostic_aggregator/analyzers/husky/type: diagnostic_aggreg...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/base_link_frame: base_link
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/frequency: 50
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/imu0: imu/data
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/imu0_config: [False, False, Fa...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/imu0_differential: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/imu0_queue_size: 10
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/imu0_remove_gravitational_acceleration: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/odom0: husky_velocity_co...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/odom0_config: [False, False, Fa...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/odom0_differential: False
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/odom0_queue_size: 10
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/odom_frame: odom
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/predict_to_current_time: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/two_d_mode: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /ekf_localization/world_frame: odom
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_joint_publisher/publish_rate: 50
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_joint_publisher/type: joint_state_contr...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_node/control_frequency: 10.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_node/diagnostic_frequency: 1.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_node/max_acceleration: 3.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_node/max_speed: 1.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_node/polling_timeout: 10.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_node/port: /dev/prolific
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_node/wheel_diameter: 0.3302
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/angular/z/has_acceleration_limits: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/angular/z/has_velocity_limits: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/angular/z/max_acceleration: 6.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/angular/z/max_velocity: 2.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/base_frame_id: base_link
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/cmd_vel_timeout: 0.25
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/enable_odom_tf: False
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/estimate_velocity_from_position: False
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/left_wheel: ['front_left_whee...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/linear/x/has_acceleration_limits: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/linear/x/has_velocity_limits: True
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/linear/x/max_acceleration: 3.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/linear/x/max_velocity: 1.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/pose_covariance_diagonal: [0.001, 0.001, 0....
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/publish_rate: 50
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/right_wheel: ['front_right_whe...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/twist_covariance_diagonal: [0.001, 0.001, 0....
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/type: diff_drive_contro...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/velocity_rolling_window_size: 2
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/wheel_radius_multiplier: 1.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /husky_velocity_controller/wheel_separation_multiplier: 1.875
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/joy_node/autorepeat_rate: 20
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/joy_node/deadzone: 0.1
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/joy_node/dev: /dev/input/js0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/axis_angular: 0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/axis_linear: 1
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/enable_button: 4
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/enable_turbo_button: 5
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/scale_angular: 0.6
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/scale_angular_turbo: 1.2
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/scale_linear: 0.4
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /joy_teleop/teleop_twist_joy/scale_linear_turbo: 1.0
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /robot_description: <?xml version="1....
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /rosdistro: noetic
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /rosversion: 1.15.14
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /twist_marker_server/link_name: base_link
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /twist_mux/locks: [{'name': 'e_stop...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:  * /twist_mux/topics: [{'name': 'joy', ...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: NODES
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:   /
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     base_controller_spawner (controller_manager/spawner)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     diagnostic_aggregator (diagnostic_aggregator/aggregator_node)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     ekf_localization (robot_localization/ekf_localization_node)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     husky_node (husky_base/husky_node)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     robot_state_publisher (robot_state_publisher/robot_state_publisher)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     twist_marker_server (interactive_marker_twist_server/marker_server)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     twist_mux (twist_mux/twist_mux)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:   /joy_teleop/
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     joy_node (joy/joy_node)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]:     teleop_twist_joy (teleop_twist_joy/teleop_node)
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: auto-starting new master
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[master]: started with pid [1911]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: ROS_MASTER_URI=http://127.0.0.1:11311
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: 
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: setting /run_id to fb297980-cc8a-11ec-b172-695ec264b601
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[rosout-1]: started with pid [1921]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: started core service [/rosout]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[husky_node-2]: started with pid [1937]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[base_controller_spawner-3]: started with pid [1938]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[ekf_localization-4]: started with pid [1939]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[twist_marker_server-5]: started with pid [1940]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[robot_state_publisher-6]: started with pid [1941]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[twist_mux-7]: started with pid [1953]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[joy_teleop/joy_node-8]: started with pid [1956]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[joy_teleop/teleop_twist_joy-9]: started with pid [1963]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: process[diagnostic_aggregator-10]: started with pid [1964]
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [diagnostic_aggregator-10] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [joy_teleop/teleop_twist_joy-9] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [joy_teleop/joy_node-8] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [twist_mux-7] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [robot_state_publisher-6] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [twist_marker_server-5] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [ekf_localization-4] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [base_controller_spawner-3] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [husky_node-2] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [rosout-1] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: [master] killing on exit
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: shutting down processing monitor...
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: ... shutting down processing monitor complete
+May 05 11:56:53 cpr-a200-0764 ros-start[1890]: done
+-- Reboot --
+May 05 12:20:37 cpr-a200-0764 ros-start[1419]: /usr/bin/du: cannot read directory '/tmp/systemd-private-76a772222fac4e29bc82e65910196901-systemd-logind.service-ksoSki': Permission denied
+May 05 12:20:37 cpr-a200-0764 ros-start[1419]: /usr/bin/du: cannot read directory '/tmp/systemd-private-76a772222fac4e29bc82e65910196901-chrony.service-sgcV4f': Permission denied
+May 05 12:20:37 cpr-a200-0764 ros-start[1419]: /usr/bin/du: cannot read directory '/tmp/systemd-private-76a772222fac4e29bc82e65910196901-systemd-resolved.service-JkwfQf': Permission denied
+May 05 12:20:37 cpr-a200-0764 ros-start[1419]: /usr/bin/du: cannot read directory '/tmp/systemd-private-76a772222fac4e29bc82e65910196901-ModemManager.service-RemdZh': Permission denied
+May 05 12:22:01 cpr-a200-0764 ros-start[1464]: [WARN] [1651767721.377562]: Controller Spawner error while taking down controllers: unable to contact master
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: WARNING: Could not change permissions for folder [/tmp/4c2c266c-cc8f-11ec-bf7a-0b65184068c1], make sure that the parent folder has correct permissions.
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: Checking log directory for disk usage. This may take a while.
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: Press Ctrl-C to interrupt
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: Done checking log file disk usage. Usage is <1GB.
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: 
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: started roslaunch server http://cpr-a200-0764:43773/
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: SUMMARY
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: ========
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: PARAMETERS
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /diagnostic_aggregator/analyzers/husky/expected: ['husky_base: pow...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /diagnostic_aggregator/analyzers/husky/find_and_remove_prefix: husky_base:
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /diagnostic_aggregator/analyzers/husky/path: Husky A200
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /diagnostic_aggregator/analyzers/husky/timeout: 5.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /diagnostic_aggregator/analyzers/husky/type: diagnostic_aggreg...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/base_link_frame: base_link
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/frequency: 50
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/imu0: imu/data
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/imu0_config: [False, False, Fa...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/imu0_differential: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/imu0_queue_size: 10
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/imu0_remove_gravitational_acceleration: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/odom0: husky_velocity_co...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/odom0_config: [False, False, Fa...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/odom0_differential: False
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/odom0_queue_size: 10
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/odom_frame: odom
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/predict_to_current_time: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/two_d_mode: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /ekf_localization/world_frame: odom
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_joint_publisher/publish_rate: 50
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_joint_publisher/type: joint_state_contr...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_node/control_frequency: 10.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_node/diagnostic_frequency: 1.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_node/max_acceleration: 3.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_node/max_speed: 1.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_node/polling_timeout: 10.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_node/port: /dev/prolific
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_node/wheel_diameter: 0.3302
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/angular/z/has_acceleration_limits: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/angular/z/has_velocity_limits: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/angular/z/max_acceleration: 6.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/angular/z/max_velocity: 2.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/base_frame_id: base_link
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/cmd_vel_timeout: 0.25
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/enable_odom_tf: False
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/estimate_velocity_from_position: False
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/left_wheel: ['front_left_whee...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/linear/x/has_acceleration_limits: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/linear/x/has_velocity_limits: True
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/linear/x/max_acceleration: 3.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/linear/x/max_velocity: 1.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/pose_covariance_diagonal: [0.001, 0.001, 0....
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/publish_rate: 50
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/right_wheel: ['front_right_whe...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/twist_covariance_diagonal: [0.001, 0.001, 0....
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/type: diff_drive_contro...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/velocity_rolling_window_size: 2
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/wheel_radius_multiplier: 1.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /husky_velocity_controller/wheel_separation_multiplier: 1.875
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/joy_node/autorepeat_rate: 20
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/joy_node/deadzone: 0.1
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/joy_node/dev: /dev/input/js0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/axis_angular: 0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/axis_linear: 1
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/enable_button: 4
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/enable_turbo_button: 5
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/scale_angular: 0.6
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/scale_angular_turbo: 1.2
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/scale_linear: 0.4
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /joy_teleop/teleop_twist_joy/scale_linear_turbo: 1.0
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /robot_description: <?xml version="1....
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /rosdistro: noetic
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /rosversion: 1.15.14
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /twist_marker_server/link_name: base_link
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /twist_mux/locks: [{'name': 'e_stop...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:  * /twist_mux/topics: [{'name': 'joy', ...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: NODES
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:   /
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     base_controller_spawner (controller_manager/spawner)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     diagnostic_aggregator (diagnostic_aggregator/aggregator_node)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     ekf_localization (robot_localization/ekf_localization_node)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     husky_node (husky_base/husky_node)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     robot_state_publisher (robot_state_publisher/robot_state_publisher)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     twist_marker_server (interactive_marker_twist_server/marker_server)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     twist_mux (twist_mux/twist_mux)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:   /joy_teleop/
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     joy_node (joy/joy_node)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]:     teleop_twist_joy (teleop_twist_joy/teleop_node)
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: auto-starting new master
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[master]: started with pid [1437]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: ROS_MASTER_URI=http://127.0.0.1:11311
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: 
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: setting /run_id to 4c2c266c-cc8f-11ec-bf7a-0b65184068c1
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[rosout-1]: started with pid [1447]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: started core service [/rosout]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[husky_node-2]: started with pid [1459]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[base_controller_spawner-3]: started with pid [1464]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[ekf_localization-4]: started with pid [1465]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[twist_marker_server-5]: started with pid [1466]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[robot_state_publisher-6]: started with pid [1467]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[twist_mux-7]: started with pid [1477]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[joy_teleop/joy_node-8]: started with pid [1483]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[joy_teleop/teleop_twist_joy-9]: started with pid [1496]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: process[diagnostic_aggregator-10]: started with pid [1498]
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [diagnostic_aggregator-10] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [joy_teleop/teleop_twist_joy-9] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [joy_teleop/joy_node-8] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [twist_mux-7] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [robot_state_publisher-6] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [twist_marker_server-5] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [ekf_localization-4] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [base_controller_spawner-3] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [husky_node-2] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [rosout-1] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: [master] killing on exit
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: shutting down processing monitor...
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: ... shutting down processing monitor complete
+May 05 12:22:02 cpr-a200-0764 ros-start[1414]: done
+-- Reboot --
+May 06 17:54:23 cpr-a200-0764 ros-start[1448]: /usr/bin/du: cannot read directory '/tmp/systemd-private-af9edb2d67db4d029279262f9fb4fa46-systemd-resolved.service-6OBIri': Permission denied
+May 06 17:54:23 cpr-a200-0764 ros-start[1448]: /usr/bin/du: cannot read directory '/tmp/systemd-private-af9edb2d67db4d029279262f9fb4fa46-chrony.service-qF1vjj': Permission denied
+May 06 17:54:23 cpr-a200-0764 ros-start[1448]: /usr/bin/du: cannot read directory '/tmp/systemd-private-af9edb2d67db4d029279262f9fb4fa46-ModemManager.service-e5MbPg': Permission denied
+May 06 17:54:23 cpr-a200-0764 ros-start[1448]: /usr/bin/du: cannot read directory '/tmp/systemd-private-af9edb2d67db4d029279262f9fb4fa46-systemd-logind.service-D2cZ3h': Permission denied
+May 06 17:55:33 cpr-a200-0764 ros-start[1493]: [WARN] [1651874132.903356]: Controller Spawner error while taking down controllers: unable to contact master
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: WARNING: Could not change permissions for folder [/tmp/16f4ca6e-cd87-11ec-bf03-5192a7ecdc98], make sure that the parent folder has correct permissions.
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: Checking log directory for disk usage. This may take a while.
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: Press Ctrl-C to interrupt
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: Done checking log file disk usage. Usage is <1GB.
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: 
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: started roslaunch server http://cpr-a200-0764:34189/
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: SUMMARY
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: ========
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: PARAMETERS
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /diagnostic_aggregator/analyzers/husky/expected: ['husky_base: pow...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /diagnostic_aggregator/analyzers/husky/find_and_remove_prefix: husky_base:
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /diagnostic_aggregator/analyzers/husky/path: Husky A200
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /diagnostic_aggregator/analyzers/husky/timeout: 5.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /diagnostic_aggregator/analyzers/husky/type: diagnostic_aggreg...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/base_link_frame: base_link
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/frequency: 50
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/imu0: imu/data
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/imu0_config: [False, False, Fa...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/imu0_differential: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/imu0_queue_size: 10
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/imu0_remove_gravitational_acceleration: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/odom0: husky_velocity_co...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/odom0_config: [False, False, Fa...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/odom0_differential: False
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/odom0_queue_size: 10
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/odom_frame: odom
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/predict_to_current_time: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/two_d_mode: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /ekf_localization/world_frame: odom
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_joint_publisher/publish_rate: 50
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_joint_publisher/type: joint_state_contr...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_node/control_frequency: 10.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_node/diagnostic_frequency: 1.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_node/max_acceleration: 3.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_node/max_speed: 1.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_node/polling_timeout: 10.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_node/port: /dev/prolific
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_node/wheel_diameter: 0.3302
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/angular/z/has_acceleration_limits: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/angular/z/has_velocity_limits: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/angular/z/max_acceleration: 6.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/angular/z/max_velocity: 2.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/base_frame_id: base_link
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/cmd_vel_timeout: 0.25
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/enable_odom_tf: False
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/estimate_velocity_from_position: False
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/left_wheel: ['front_left_whee...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/linear/x/has_acceleration_limits: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/linear/x/has_velocity_limits: True
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/linear/x/max_acceleration: 3.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/linear/x/max_velocity: 1.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/pose_covariance_diagonal: [0.001, 0.001, 0....
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/publish_rate: 50
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/right_wheel: ['front_right_whe...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/twist_covariance_diagonal: [0.001, 0.001, 0....
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/type: diff_drive_contro...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/velocity_rolling_window_size: 2
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/wheel_radius_multiplier: 1.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /husky_velocity_controller/wheel_separation_multiplier: 1.875
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/joy_node/autorepeat_rate: 20
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/joy_node/deadzone: 0.1
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/joy_node/dev: /dev/input/js0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/axis_angular: 0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/axis_linear: 1
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/enable_button: 4
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/enable_turbo_button: 5
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/scale_angular: 0.6
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/scale_angular_turbo: 1.2
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/scale_linear: 0.4
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /joy_teleop/teleop_twist_joy/scale_linear_turbo: 1.0
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /robot_description: <?xml version="1....
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /rosdistro: noetic
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /rosversion: 1.15.14
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /twist_marker_server/link_name: base_link
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /twist_mux/locks: [{'name': 'e_stop...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:  * /twist_mux/topics: [{'name': 'joy', ...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: NODES
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:   /
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     base_controller_spawner (controller_manager/spawner)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     diagnostic_aggregator (diagnostic_aggregator/aggregator_node)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     ekf_localization (robot_localization/ekf_localization_node)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     husky_node (husky_base/husky_node)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     robot_state_publisher (robot_state_publisher/robot_state_publisher)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     twist_marker_server (interactive_marker_twist_server/marker_server)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     twist_mux (twist_mux/twist_mux)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:   /joy_teleop/
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     joy_node (joy/joy_node)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]:     teleop_twist_joy (teleop_twist_joy/teleop_node)
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: auto-starting new master
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[master]: started with pid [1466]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: ROS_MASTER_URI=http://127.0.0.1:11311
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: 
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: setting /run_id to 16f4ca6e-cd87-11ec-bf03-5192a7ecdc98
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[rosout-1]: started with pid [1476]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: started core service [/rosout]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[husky_node-2]: started with pid [1489]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[base_controller_spawner-3]: started with pid [1493]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[ekf_localization-4]: started with pid [1494]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[twist_marker_server-5]: started with pid [1495]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[robot_state_publisher-6]: started with pid [1496]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[twist_mux-7]: started with pid [1506]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[joy_teleop/joy_node-8]: started with pid [1514]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[joy_teleop/teleop_twist_joy-9]: started with pid [1515]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: process[diagnostic_aggregator-10]: started with pid [1516]
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [diagnostic_aggregator-10] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [joy_teleop/teleop_twist_joy-9] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [joy_teleop/joy_node-8] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [twist_mux-7] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [robot_state_publisher-6] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [twist_marker_server-5] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [ekf_localization-4] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [base_controller_spawner-3] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [husky_node-2] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [rosout-1] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: [master] killing on exit
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: shutting down processing monitor...
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: ... shutting down processing monitor complete
+May 06 17:55:33 cpr-a200-0764 ros-start[1443]: done

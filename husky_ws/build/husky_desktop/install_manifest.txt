@@ -1,0 +1,15 @@
+/home/administrator/husky_ws/install/husky_desktop/share/ament_index/resource_index/package_run_dependencies/husky_desktop
+/home/administrator/husky_ws/install/husky_desktop/share/ament_index/resource_index/parent_prefix_path/husky_desktop
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/environment/ament_prefix_path.sh
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/environment/ament_prefix_path.dsv
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/environment/path.sh
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/environment/path.dsv
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/local_setup.bash
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/local_setup.sh
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/local_setup.zsh
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/local_setup.dsv
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/package.dsv
+/home/administrator/husky_ws/install/husky_desktop/share/ament_index/resource_index/packages/husky_desktop
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/cmake/husky_desktopConfig.cmake
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/cmake/husky_desktopConfig-version.cmake
+/home/administrator/husky_ws/install/husky_desktop/share/husky_desktop/package.xml

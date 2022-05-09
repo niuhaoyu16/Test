@@ -1,0 +1,10 @@
+Flavour: noetic-focal
+Version: 0.5.12
+
+ROS Distro: noetic
+Ubuntu Distro: focal
+Installer: netboot
+Architecture: amd64
+
+Built by: ff03dde08174
+Built on: 20220325
